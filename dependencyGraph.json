@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1500333227560,
+  "timestamp": 1500341926355,
   "graph": {
     "options": {
       "directed": true,
@@ -115,6 +115,12 @@
         }
       },
       {
+        "v": "00-atoms/header-primary-color/header-primary-color.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "00-atoms/images/article.mustache",
         "value": {
           "compileState": "clean"
@@ -124,8 +130,8 @@
         "v": "00-atoms/images/banner.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-example-01/03-templates-example-01.html",
-          "lineagePattern": "templates-example-01"
+          "lineagePath": "../../patterns/03-templates-example-02/03-templates-example-02.html",
+          "lineagePattern": "templates-example-02"
         }
       },
       {
@@ -160,6 +166,32 @@
       },
       {
         "v": "00-atoms/text/body.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/text-banner/text-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-example-02/03-templates-example-02.html",
+          "lineagePattern": "templates-example-02"
+        }
+      },
+      {
+        "v": "01-molecules/input-group/input-group-lebel.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/input-group/input-group-responsive.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/input-group/input-group.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -208,8 +240,8 @@
         "v": "02-organisms/footer/footer.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-example-01/03-templates-example-01.html",
-          "lineagePattern": "templates-example-01"
+          "lineagePath": "../../patterns/03-templates-example-02/03-templates-example-02.html",
+          "lineagePattern": "templates-example-02"
         }
       },
       {
@@ -224,20 +256,32 @@
         "v": "02-organisms/header/header.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-example-01/03-templates-example-01.html",
-          "lineagePattern": "templates-example-01"
+          "lineagePath": "../../patterns/03-templates-example-02/03-templates-example-02.html",
+          "lineagePattern": "templates-example-02"
+        }
+      },
+      {
+        "v": "02-organisms/register-form/register-from.mustache",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
         "v": "02-organisms/top menu/top-menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-example-01/03-templates-example-01.html",
-          "lineagePattern": "templates-example-01"
+          "lineagePath": "../../patterns/03-templates-example-02/03-templates-example-02.html",
+          "lineagePattern": "templates-example-02"
         }
       },
       {
         "v": "03-templates/example-01.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-templates/example-02.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -477,6 +521,31 @@
       },
       {
         "v": "03-templates/example-01.mustache",
+        "w": "02-organisms/footer/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/example-02.mustache",
+        "w": "02-organisms/header/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/example-02.mustache",
+        "w": "02-organisms/top menu/top-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/example-02.mustache",
+        "w": "00-atoms/images/banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/example-02.mustache",
+        "w": "00-atoms/text-banner/text-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/example-02.mustache",
         "w": "02-organisms/footer/footer.mustache",
         "value": {}
       }
