@@ -6754,6 +6754,21 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 .icon-renren:before {
   content: "\f18b"; }
 
+.spf-article-image {
+  width: 100%;
+  height: 176px;
+  object-fit: cover; }
+
+.spf-article-card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; }
+
+.spf-banner-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover; }
+
 .spf-body .uikit-header {
   padding: 1.6em 0;
   margin-bottom: 0; }
@@ -6839,16 +6854,26 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   max-width: initial;
   margin-left: 0; }
 
-.spf-body .spf-article-box {
+.spf-body .spf-article-box, .spf-body .spf-article-card {
   width: 100%;
   border: 1px solid #555;
   border-radius: 3px; }
-  .spf-body .spf-article-box .spf-article-title,
-  .spf-body .spf-article-box .spf-article-body {
+  .spf-body .spf-article-box .spf-article-body, .spf-body .spf-article-card .spf-article-body,
+  .spf-body .spf-article-box .spf-article-title, .spf-body .spf-article-card .spf-article-title {
     padding: 0 1.6em; }
-    .spf-body .spf-article-box .spf-article-title .spf-article-box-date,
-    .spf-body .spf-article-box .spf-article-body .spf-article-box-date {
+    .spf-body .spf-article-box .spf-article-body .spf-article-box-date, .spf-body .spf-article-card .spf-article-body .spf-article-box-date,
+    .spf-body .spf-article-box .spf-article-title .spf-article-box-date, .spf-body .spf-article-card .spf-article-title .spf-article-box-date {
       font-size: small; }
+
+.spf-body .spf-article-card .spf-article-card--image,
+.spf-body .spf-article-card .spf-article-card--title {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0em;
+  padding: 0em; }
+
+.spf-body .spf-article-card .spf-article-card--title {
+  padding-left: 1.6em; }
 
 .spf-body .spf-social-media-icon-bar a {
   display: inline-block;
@@ -6859,7 +6884,8 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   font-style: initial; }
 
 .spf-body .spf-text-banner,
-.spf-body .spf-text-banner-primary {
+.spf-body .spf-text-banner-primary,
+.spf-body .spf-text-banner-gradiant {
   padding: 1.6em;
   background-color: #2C1A5C;
   display: block;
@@ -6869,6 +6895,9 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 .spf-body .spf-text-banner-primary {
   background-color: #f0f3f5;
   color: #313131; }
+
+.spf-body .spf-text-banner-gradiant {
+  background: linear-gradient(to right, #3F2583, #ebd2e7); }
 
 .spf-page-content, .spf-page-content--middle, .spf-page-content--left, .spf-page-content--right {
   position: relative;
@@ -6915,6 +6944,10 @@ i.fa {
     margin-right: 0.8em; }
   .spf-body .spf-tile span.title {
     font-size: large; }
+
+.spf-cross-site-alert .uikit-page-alerts {
+  border-radius: 0;
+  margin: 0em; }
 
 .input-group {
   display: table;
@@ -6981,32 +7014,22 @@ i.fa {
   .spf-body .spf-form > p {
     display: block; }
 
-.top-menu .uikit-link-list {
+.top-nav .uikit-link-list {
   padding-top: 0;
   padding-bottom: 0; }
-  .top-menu .uikit-link-list > li {
+  .top-nav .uikit-link-list > li {
     margin-top: 0;
     margin-bottom: 0; }
-    .top-menu .uikit-link-list > li a {
+    .top-nav .uikit-link-list > li a {
       font-weight: 700;
       border-bottom: solid 4px transparent;
       display: inline-block; }
       @media (min-width: 992px) {
-        .top-menu .uikit-link-list > li a {
+        .top-nav .uikit-link-list > li a {
           padding: 1.6em 0.8em; } }
-    .top-menu .uikit-link-list > li a:active,
-    .top-menu .uikit-link-list > li a:hover {
+    .top-nav .uikit-link-list > li a:active,
+    .top-nav .uikit-link-list > li a:hover {
       border-bottom: solid 4px #3F2583; }
-
-.spf-banner-image {
-  width: 100%;
-  height: 420px;
-  object-fit: cover; }
-
-.spf-article-image {
-  width: 100%;
-  height: 176px;
-  object-fit: cover; }
 
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif; }

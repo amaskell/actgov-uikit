@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1500868978245,
+  "timestamp": 1500880039871,
   "graph": {
     "options": {
       "directed": true,
@@ -34,8 +34,8 @@
         "v": "00-atoms/alert/alert-info.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
         }
       },
       {
@@ -47,7 +47,9 @@
       {
         "v": "00-atoms/alert/alert-warning.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-cross-site-alert-cross-site-alert/02-organisms-cross-site-alert-cross-site-alert.html",
+          "lineagePattern": "organisms-cross-site-alert"
         }
       },
       {
@@ -92,8 +94,8 @@
         "v": "00-atoms/callout/callout.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
         }
       },
       {
@@ -193,33 +195,43 @@
         }
       },
       {
-        "v": "00-atoms/images/article.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "00-atoms/images/banner.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
-        }
-      },
-      {
-        "v": "00-atoms/images/footer-logo.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-footer-global-footer-global/02-organisms-footer-global-footer-global.html",
-          "lineagePattern": "organisms-footer-global"
-        }
-      },
-      {
-        "v": "00-atoms/images/header-logo.mustache",
+        "v": "00-atoms/images/00-image-header-logo.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-header-header/02-organisms-header-header.html",
           "lineagePattern": "organisms-header"
+        }
+      },
+      {
+        "v": "00-atoms/images/01-image-footer-logo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-footer-footer-global/02-organisms-footer-footer-global.html",
+          "lineagePattern": "organisms-footer-global"
+        }
+      },
+      {
+        "v": "00-atoms/images/02-image-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
+        }
+      },
+      {
+        "v": "00-atoms/images/04-image-article.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-article-box-feature-article-box/02-organisms-article-box-feature-article-box.html",
+          "lineagePattern": "organisms-feature-article-box"
+        }
+      },
+      {
+        "v": "00-atoms/images/05-image-article-card.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-article-box-article-card/02-organisms-article-box-article-card.html",
+          "lineagePattern": "organisms-article-card"
         }
       },
       {
@@ -280,6 +292,14 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-03-template-03/03-templates-03-template-03.html",
           "lineagePattern": "templates-template-03"
+        }
+      },
+      {
+        "v": "00-atoms/text-banner/02-text-banner-gradiant.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
+          "lineagePattern": "templates-temlpate-04"
         }
       },
       {
@@ -346,7 +366,7 @@
         "v": "01-molecules/link-list/03-link-list-hr-inverted.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-footer-global-footer-global/02-organisms-footer-global-footer-global.html",
+          "lineagePath": "../../patterns/02-organisms-footer-footer-global/02-organisms-footer-footer-global.html",
           "lineagePattern": "organisms-footer-global"
         }
       },
@@ -384,12 +404,42 @@
         "v": "01-molecules/tile/tile.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-tiles-section-tiles-section/02-organisms-tiles-section-tiles-section.html",
-          "lineagePattern": "organisms-tiles-section"
+          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
+          "lineagePattern": "templates-temlpate-04"
         }
       },
       {
         "v": "02-organisms/article-box/article-box.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
+        }
+      },
+      {
+        "v": "02-organisms/article-box/article-card.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/article-box/feature-article-box.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
+          "lineagePattern": "templates-temlpate-04"
+        }
+      },
+      {
+        "v": "02-organisms/cross-site-alert/cross-site-alert.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
+        }
+      },
+      {
+        "v": "02-organisms/footer/footer-global.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
@@ -398,14 +448,6 @@
       },
       {
         "v": "02-organisms/footer/footer.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
-        }
-      },
-      {
-        "v": "02-organisms/footer-global/footer-global.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
@@ -448,16 +490,14 @@
         "v": "02-organisms/tiles-section/tiles-section.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
+          "lineagePath": "../../patterns/03-templates-01-template-01/03-templates-01-template-01.html",
+          "lineagePattern": "templates-template-01"
         }
       },
       {
-        "v": "02-organisms/top menu/top-menu.mustache",
+        "v": "02-organisms/top nav/top-nav.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
+          "compileState": "clean"
         }
       },
       {
@@ -737,6 +777,36 @@
         "value": {}
       },
       {
+        "v": "02-organisms/article-box/article-box.mustache",
+        "w": "00-atoms/images/04-image-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/article-box/article-card.mustache",
+        "w": "00-atoms/images/05-image-article-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/article-box/feature-article-box.mustache",
+        "w": "00-atoms/images/04-image-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/cross-site-alert/cross-site-alert.mustache",
+        "w": "00-atoms/alert/alert-warning.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/footer/footer-global.mustache",
+        "w": "01-molecules/link-list/03-link-list-hr-inverted.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/footer/footer-global.mustache",
+        "w": "00-atoms/images/01-image-footer-logo.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms/footer/footer.mustache",
         "w": "01-molecules/link-list/02-link-list-hr.mustache",
         "value": {}
@@ -747,18 +817,8 @@
         "value": {}
       },
       {
-        "v": "02-organisms/footer-global/footer-global.mustache",
-        "w": "01-molecules/link-list/03-link-list-hr-inverted.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/footer-global/footer-global.mustache",
-        "w": "00-atoms/images/footer-logo.mustache",
-        "value": {}
-      },
-      {
         "v": "02-organisms/header/header.mustache",
-        "w": "00-atoms/images/header-logo.mustache",
+        "w": "00-atoms/images/00-image-header-logo.mustache",
         "value": {}
       },
       {
@@ -813,22 +873,27 @@
       },
       {
         "v": "03-templates/01-template-01.mustache",
+        "w": "02-organisms/cross-site-alert/cross-site-alert.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/01-template-01.mustache",
         "w": "02-organisms/header/header.mustache",
         "value": {}
       },
       {
         "v": "03-templates/01-template-01.mustache",
-        "w": "02-organisms/top menu/top-menu.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/01-template-01.mustache",
-        "w": "00-atoms/images/banner.mustache",
+        "w": "00-atoms/images/02-image-banner.mustache",
         "value": {}
       },
       {
         "v": "03-templates/01-template-01.mustache",
         "w": "00-atoms/alert/alert-info.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/01-template-01.mustache",
+        "w": "02-organisms/tiles-section/tiles-section.mustache",
         "value": {}
       },
       {
@@ -848,17 +913,12 @@
       },
       {
         "v": "03-templates/01-template-01.mustache",
-        "w": "02-organisms/footer-global/footer-global.mustache",
+        "w": "02-organisms/footer/footer-global.mustache",
         "value": {}
       },
       {
         "v": "03-templates/02-template-02.mustache",
         "w": "02-organisms/header/header.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/02-template-02.mustache",
-        "w": "02-organisms/top menu/top-menu.mustache",
         "value": {}
       },
       {
@@ -877,13 +937,13 @@
         "value": {}
       },
       {
-        "v": "03-templates/03-template-03.mustache",
-        "w": "02-organisms/header/header.mustache",
+        "v": "03-templates/02-template-02.mustache",
+        "w": "02-organisms/footer/footer-global.mustache",
         "value": {}
       },
       {
         "v": "03-templates/03-template-03.mustache",
-        "w": "02-organisms/top menu/top-menu.mustache",
+        "w": "02-organisms/header/header.mustache",
         "value": {}
       },
       {
@@ -922,38 +982,28 @@
         "value": {}
       },
       {
+        "v": "03-templates/03-template-03.mustache",
+        "w": "02-organisms/footer/footer-global.mustache",
+        "value": {}
+      },
+      {
         "v": "03-templates/04-temlpate-04.mustache",
         "w": "02-organisms/header/header.mustache",
         "value": {}
       },
       {
         "v": "03-templates/04-temlpate-04.mustache",
-        "w": "02-organisms/top menu/top-menu.mustache",
+        "w": "02-organisms/article-box/feature-article-box.mustache",
         "value": {}
       },
       {
         "v": "03-templates/04-temlpate-04.mustache",
-        "w": "00-atoms/images/banner.mustache",
+        "w": "01-molecules/tile/tile.mustache",
         "value": {}
       },
       {
         "v": "03-templates/04-temlpate-04.mustache",
-        "w": "00-atoms/alert/alert-info.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/04-temlpate-04.mustache",
-        "w": "02-organisms/tiles-section/tiles-section.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/04-temlpate-04.mustache",
-        "w": "00-atoms/callout/callout.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/04-temlpate-04.mustache",
-        "w": "02-organisms/article-box/article-box.mustache",
+        "w": "00-atoms/text-banner/02-text-banner-gradiant.mustache",
         "value": {}
       },
       {
@@ -963,7 +1013,7 @@
       },
       {
         "v": "03-templates/04-temlpate-04.mustache",
-        "w": "02-organisms/footer-global/footer-global.mustache",
+        "w": "02-organisms/footer/footer-global.mustache",
         "value": {}
       }
     ]

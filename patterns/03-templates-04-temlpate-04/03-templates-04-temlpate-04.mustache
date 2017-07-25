@@ -11,35 +11,19 @@
         </div>
         <div class="col-md-1"></div>
         <hr class="col-md-12 no-margin" />
-        <div class="col-md-12">
-            {{> atoms-banner }}
-        </div>
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="col-md-12">
-                <div class="col-md-12">
-                    {{> atoms-alert-info }}
+                <div class="col-md-8 spf-page-content">
+                    {{> organisms-feature-article-box}}
                 </div>
-            </div>
-            {{> organisms-tiles-section}}
-            <div class="col-md-12">
-                <div class="col-md-12">
-                    {{> atoms-callout }}
-                </div>
+                <div class="col-md-4 spf-page-sidebar">{{> molecules-tile}}</div>
             </div>
             <div class="col-md-12">
-                <div class="col-md-3">
-                    {{> organisms-article-box }}
+                <div class="col-md-8 spf-page-content>
+                    {{> atoms-text-banner-gradiant(content:"<h2>Title</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ultricies ante. Fusce feugiat placerat porttitor. Pellentesque ac dignissim turpis.</p>") }}
                 </div>
-                <div class="col-md-3">
-                    {{> organisms-article-box }}
-                </div>
-                <div class="col-md-3">
-                    {{> organisms-article-box }}
-                </div>
-                <div class="col-md-3">
-                    {{> organisms-article-box }}
-                </div>
+                <div class="col-md-4 spf-page-sidebar">{{> molecules-tile}}</div>
             </div>
         </div>
         <div class="col-md-1"></div>
