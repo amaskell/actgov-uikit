@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1501122210013,
+  "timestamp": 1501134765667,
   "graph": {
     "options": {
       "directed": true,
@@ -305,6 +305,12 @@
         }
       },
       {
+        "v": "00-atoms/text/text-align.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "00-atoms/text/text-link-external.mustache",
         "value": {
           "compileState": "clean"
@@ -329,15 +335,15 @@
       {
         "v": "00-atoms/text-banner/01-text-banner-primary.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-03-template-03/03-templates-03-template-03.html",
-          "lineagePattern": "templates-template-03"
+          "compileState": "clean"
         }
       },
       {
         "v": "00-atoms/text-banner/02-text-banner-light.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-template-03/03-templates-03-template-03.html",
+          "lineagePattern": "templates-template-03"
         }
       },
       {
@@ -445,7 +451,9 @@
       {
         "v": "01-molecules/pagination/pagination.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-template-03/03-templates-03-template-03.html",
+          "lineagePattern": "templates-template-03"
         }
       },
       {
@@ -1145,7 +1153,7 @@
       },
       {
         "v": "03-templates/03-template-03.mustache",
-        "w": "00-atoms/text-banner/01-text-banner-primary.mustache",
+        "w": "00-atoms/text-banner/02-text-banner-light.mustache",
         "value": {}
       },
       {
@@ -1156,6 +1164,11 @@
       {
         "v": "03-templates/03-template-03.mustache",
         "w": "02-organisms/search-results/search-results.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/03-template-03.mustache",
+        "w": "01-molecules/pagination/pagination.mustache",
         "value": {}
       },
       {
