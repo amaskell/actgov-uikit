@@ -6999,13 +6999,16 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
     background-color: #2c1a5c;
     color: #f0f3f5; }
   .spf-body .spf-text-banner.spf-text-banner--primary {
-    background-color: #3F2583; }
+    background-color: #3F2583;
+    color: #f0f3f5; }
   .spf-body .spf-text-banner.spf-text-banner--light {
     background-color: #f0f3f5; }
   .spf-body .spf-text-banner.spf-text-banner--dark {
-    background-color: #313131; }
+    background-color: #313131;
+    color: #f0f3f5; }
   .spf-body .spf-text-banner.spf-text-banner--gradiant {
-    background: linear-gradient(to right, #3F2583, #A33790); }
+    background: linear-gradient(to right, #3F2583, #A33790);
+    color: #f0f3f5; }
 
 .spf-page-content, .spf-page-content--middle, .spf-page-content--left, .spf-page-content--right {
   position: relative;
