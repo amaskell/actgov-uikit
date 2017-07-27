@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1501047650933,
+  "timestamp": 1501122210013,
   "graph": {
     "options": {
       "directed": true,
@@ -381,6 +381,12 @@
         }
       },
       {
+        "v": "01-molecules/icon-bar/icon-bar.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "01-molecules/input-group/input-group-lebel.mustache",
         "value": {
           "compileState": "clean"
@@ -434,6 +440,18 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-link-text-sidebar-link-text-sidebar/02-organisms-link-text-sidebar-link-text-sidebar.html",
           "lineagePattern": "organisms-link-text-sidebar"
+        }
+      },
+      {
+        "v": "01-molecules/pagination/pagination.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/pagination/pagination~linkLists.json",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -791,6 +809,21 @@
     ],
     "edges": [
       {
+        "v": "01-molecules/pagination/pagination~linkLists.json",
+        "w": "01-molecules/pagination/pagination.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/pagination/pagination~linkLists.json",
+        "w": "00-atoms/text/text-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/pagination/pagination~linkLists.json",
+        "w": "01-molecules/link-list/02-link-list-hr.mustache",
+        "value": {}
+      },
+      {
         "v": "00-atoms/accordion/00-accordion-title.mustache",
         "w": "00-atoms/text/text-link.mustache",
         "value": {}
@@ -846,6 +879,11 @@
         "value": {}
       },
       {
+        "v": "01-molecules/icon-bar/icon-bar.mustache",
+        "w": "01-molecules/link-list/02-link-list-hr.mustache",
+        "value": {}
+      },
+      {
         "v": "01-molecules/input-group/input-group.mustache",
         "w": "00-atoms/buttons/00-button.mustache",
         "value": {}
@@ -863,6 +901,16 @@
       {
         "v": "01-molecules/link-text-block/link-text-block.mustache",
         "w": "00-atoms/text/text-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/pagination/pagination.mustache",
+        "w": "00-atoms/text/text-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/pagination/pagination.mustache",
+        "w": "01-molecules/link-list/02-link-list-hr.mustache",
         "value": {}
       },
       {
