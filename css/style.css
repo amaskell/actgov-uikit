@@ -6912,9 +6912,6 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
       .spf-body .uikit-footer .uikit-footer__logo, .spf-body .spf-footer-global .uikit-footer__logo {
         float: left; } }
     .spf-body .uikit-footer .uikit-footer__logo-image, .spf-body .spf-footer-global .uikit-footer__logo-image {
-      display: block;
-      width: 100%; }
-    .spf-body .uikit-footer .uikit-footer__logo .uikit-footer__logo-image, .spf-body .spf-footer-global .uikit-footer__logo .uikit-footer__logo-image {
       width: 140px;
       height: 72px; }
 
@@ -6934,9 +6931,6 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
       .spf-body .spf-footer-global .uikit-footer__logo {
         float: right; } }
     .spf-body .spf-footer-global .uikit-footer__logo-image {
-      display: block;
-      width: 100%; }
-    .spf-body .spf-footer-global .uikit-footer__logo .uikit-footer__logo-image {
       width: 140px;
       height: 72px; }
 

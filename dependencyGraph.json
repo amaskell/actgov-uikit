@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1501199668684,
+  "timestamp": 1501211433239,
   "graph": {
     "options": {
       "directed": true,
@@ -206,8 +206,8 @@
         "v": "00-atoms/images/01-image-footer-logo.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-footer-footer-global/02-organisms-footer-footer-global.html",
-          "lineagePattern": "organisms-footer-global"
+          "lineagePath": "../../patterns/01-molecules-logo-list-logo-list/01-molecules-logo-list-logo-list.html",
+          "lineagePattern": "molecules-logo-list"
         }
       },
       {
@@ -387,12 +387,6 @@
         }
       },
       {
-        "v": "01-molecules/icon-bar/icon-bar.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
         "v": "01-molecules/input-group/input-group-lebel.mustache",
         "value": {
           "compileState": "clean"
@@ -446,6 +440,14 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-link-text-sidebar-link-text-sidebar/02-organisms-link-text-sidebar-link-text-sidebar.html",
           "lineagePattern": "organisms-link-text-sidebar"
+        }
+      },
+      {
+        "v": "01-molecules/logo-list/logo-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-footer-footer-global/02-organisms-footer-footer-global.html",
+          "lineagePattern": "organisms-footer-global"
         }
       },
       {
@@ -887,11 +889,6 @@
         "value": {}
       },
       {
-        "v": "01-molecules/icon-bar/icon-bar.mustache",
-        "w": "01-molecules/link-list/02-link-list-hr.mustache",
-        "value": {}
-      },
-      {
         "v": "01-molecules/input-group/input-group.mustache",
         "w": "00-atoms/buttons/00-button.mustache",
         "value": {}
@@ -909,6 +906,11 @@
       {
         "v": "01-molecules/link-text-block/link-text-block.mustache",
         "w": "00-atoms/text/text-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/logo-list/logo-list.mustache",
+        "w": "00-atoms/images/01-image-footer-logo.mustache",
         "value": {}
       },
       {
@@ -968,7 +970,7 @@
       },
       {
         "v": "02-organisms/footer/footer-global.mustache",
-        "w": "00-atoms/images/01-image-footer-logo.mustache",
+        "w": "01-molecules/logo-list/logo-list.mustache",
         "value": {}
       },
       {
