@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="pl">
+
+<head>
+  <title>Pattern Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" href="../../css/style.css?1501645469685" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.min.css?1501645469685" media="all" />
+
+  <!--UIKIT test css file-->
+  <!-- <link rel="stylesheet" href="../../css/uikit.min.css" media="all" /> -->
+
+  <!--Templates specific styles  -->
+  <!-- <link rel="stylesheet" href="../../css/templates.css" media="all" /> -->
+
+  <!--Google Material design icons-->
+  <!-- <link rel="stylesheet" href="../../fonts/iconfont/material-icons.css" media="all" /> -->
+
+
+  <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+  <!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1501645469685" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1501645469685" media="all" />
+
+  <!-- End Pattern Lab -->
+
+</head>
+
+<body class="uikit-body spf-body"><main class="uikit-grid">
+
+    <div class="spf-text-banner spf-text-banner--hero">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <p>
+                    <h1>Glossary</h1>
+                </p>
+                <p>Class names used in ACT Gov SPF UI kit not specified in Pattern Lab<p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="row spf-page-content">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <table class="spf-table table-wrapped">
+                <thead>
+                    <tr>
+                        <th scope="col">Class name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                </tbody>
+        </div>
+        <div class="col-md-1"></div>
+
+
+
+
+        </table>
+    </div>
+</main><!--DO NOT REMOVE-->
+<script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>Primary button colored as the theme's primary color</p>\n","patternBreadcrumb":{"patternType":"overview"},"patternExtension":"mustache","patternName":"Glossary","patternPartial":"overview-glossary","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+  
+  var scriptLoader = {
+    
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+    
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1501645469685">
+  (function() {
+    if (self != top) {
+      var cb = '1501645469685';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1501645469685">
+  (function() {
+    if (self != top) {
+      var cb = '1501645469685';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+
+<script type="text/javascript" src="/js/nav.js"></script>
+<script type="text/javascript" src="/js/progress.js"></script>
+<script type="text/javascript" src="/js/overlay.js"></script>
+<script type="text/javascript" src="/js/uikit.min.js"></script>
+<script type="text/javascript" src="/js/spf.js"></script>
+<script type="text/javascript" src="/js/actgov.js"></script>
+</body>
+
+</html>
