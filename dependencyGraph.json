@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1501658957405,
+  "timestamp": 1501717623333,
   "graph": {
     "options": {
       "directed": true,
@@ -120,8 +120,8 @@
         "v": "00-atoms/forms/00-text-field.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-contact-us-form-contact-us-form/02-organisms-contact-us-form-contact-us-form.html",
-          "lineagePattern": "organisms-contact-us-form"
+          "lineagePath": "../../patterns/02-organisms-register-form-register-form/02-organisms-register-form-register-form.html",
+          "lineagePattern": "organisms-register-form"
         }
       },
       {
@@ -133,9 +133,7 @@
       {
         "v": "00-atoms/forms/02-text-field-responsive.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-register-form-register-form/02-organisms-register-form-register-form.html",
-          "lineagePattern": "organisms-register-form"
+          "compileState": "clean"
         }
       },
       {
@@ -1159,6 +1157,11 @@
         "value": {}
       },
       {
+        "v": "02-organisms/contact-us-form/contact-us-form.mustache",
+        "w": "00-atoms/buttons/00-button.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms/cross-site-alert/cross-site-alert.mustache",
         "w": "00-atoms/alert/alert-warning.mustache",
         "value": {}
@@ -1210,7 +1213,7 @@
       },
       {
         "v": "02-organisms/register-form/register-form.mustache",
-        "w": "00-atoms/forms/02-text-field-responsive.mustache",
+        "w": "00-atoms/forms/00-text-field.mustache",
         "value": {}
       },
       {

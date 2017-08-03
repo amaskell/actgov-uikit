@@ -6122,6 +6122,9 @@ i.fa {
   .spf-body .spf-contact-us-form .spf-contact-us-form--title,
   .spf-body .spf-contact-us-form .spf-contact-us-form--body {
     padding: 1.6em; }
+    .spf-body .spf-contact-us-form .spf-contact-us-form--title .spf-form > label,
+    .spf-body .spf-contact-us-form .spf-contact-us-form--body .spf-form > label {
+      margin-top: 1.6em; }
     .spf-body .spf-contact-us-form .spf-contact-us-form--title label.spf-contact-form-fullname::before,
     .spf-body .spf-contact-us-form .spf-contact-us-form--title label.spf-contact-form-email::before,
     .spf-body .spf-contact-us-form .spf-contact-us-form--body label.spf-contact-form-fullname::before,
