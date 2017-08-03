@@ -5523,21 +5523,31 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
     display: table; }
   .spf-body .uikit-header:after {
     clear: both; }
-  .spf-body .uikit-header .uikit-header__logo {
-    display: block;
-    border-bottom: none;
-    padding: 0.4em; }
-    .spf-body .uikit-header .uikit-header__logo:hover, .spf-body .uikit-header .uikit-header__logo:focus {
-      border-bottom: none; }
-    @media (min-width: 992px) {
-      .spf-body .uikit-header .uikit-header__logo {
-        float: left; } }
-    .spf-body .uikit-header .uikit-header__logo-image {
-      display: block;
-      width: 100%; }
-    .spf-body .uikit-header .uikit-header__logo .uikit-header__logo-image {
-      width: 140px;
-      height: 72px; }
+  .spf-body .uikit-header .uikit-header__logo-wrapper {
+    float: left;
+    border: none; }
+    .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo {
+      border-bottom: none;
+      padding: 0.4em;
+      float: left;
+      padding: 0;
+      padding-right: 0.96em;
+      border-right: 1px solid #555; }
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo:hover, .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo:focus {
+        border-bottom: none; }
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo:last-child {
+        border-right: none;
+        padding-right: 0; }
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo .uikit-header__logo-image,
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo .uikit-header__logo-text {
+        width: 140px;
+        height: 72px; }
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo .uikit-header__logo-image {
+        float: left; }
+      .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo .uikit-header__logo-text {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: x-large; }
   @media (min-width: 992px) {
     .spf-body .uikit-header .header-search-row {
       margin-top: -0.8em; } }
@@ -6125,9 +6135,9 @@ i.fa {
     border: solid 2px #3F2583;
     max-height: 42px; }
   .search-box .uikit-btn {
-    padding: 4px; }
+    padding: 7px; }
   .search-box .uikit-btn i {
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal; }
 
 .spf-body .spf-form {
