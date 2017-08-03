@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1501724770292,
+  "timestamp": 1501733626385,
   "graph": {
     "options": {
       "directed": true,
@@ -1060,11 +1060,6 @@
       {
         "v": "01-molecules/breadcrumb/01-breadcrumb-inverted.mustache",
         "w": "01-molecules/link-list/03-link-list-hr-inverted.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-molecules/input-group/input-group.mustache",
-        "w": "00-atoms/buttons/00-button.mustache",
         "value": {}
       },
       {

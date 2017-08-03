@@ -6122,9 +6122,10 @@ i.fa {
   .search-box .group-element,
   .search-box .group-element:first-child,
   .search-box .group-element:last-child {
-    border: solid 2px #3F2583; }
+    border: solid 2px #3F2583;
+    max-height: 42px; }
   .search-box .uikit-btn {
-    padding: .3em; }
+    padding: 4px; }
   .search-box .uikit-btn i {
     font-size: 30px;
     font-style: normal; }
