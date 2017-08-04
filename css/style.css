@@ -5547,7 +5547,8 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
       .spf-body .uikit-header .uikit-header__logo-wrapper .uikit-header__logo .uikit-header__logo-text {
         display: table-cell;
         vertical-align: middle;
-        font-size: x-large; }
+        font-size: x-large;
+        font-weight: 200; }
   @media (min-width: 992px) {
     .spf-body .uikit-header .header-search-row {
       margin-top: -0.8em; } }
@@ -5736,6 +5737,8 @@ i.fa {
   border-color: #3F2583;
   padding: 0.8em;
   margin-bottom: 1.6em; }
+  .spf-body .spf-tile:hover {
+    background-color: #edd7e9; }
   .spf-body .spf-tile > span {
     display: inline-block;
     vertical-align: middle; }
@@ -6286,7 +6289,6 @@ i.fa {
   width: 100%; }
   .spf-body .spf-tabs-menu .uikit-link-list {
     float: left;
-    background: white;
     position: relative; }
     .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper {
       margin: 0;
@@ -6295,14 +6297,19 @@ i.fa {
         border-top: 1px solid #555;
         border-top-color: #3F2583;
         border-right: 1px solid #555;
-        border-right-color: #3F2583; }
+        border-right-color: #3F2583;
+        border-bottom: 1px solid #555;
+        border-bottom: solid 4px transparent; }
         @media (min-width: 992px) {
           .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper > .spf-tabs-menu---item {
             padding-top: 0.8em;
             padding-bottom: 0.8em;
             outline: none; } }
         .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper > .spf-tabs-menu---item.active {
-          border-bottom-color: #3F2583; }
+          background: white; }
+        .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper > .spf-tabs-menu---item:hover,
+        .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper > .spf-tabs-menu---item .active:hover {
+          border-bottom: solid 4px #3F2583; }
       .spf-body .spf-tabs-menu .uikit-link-list > .spf-tabs-menu---item-wrapper:first-child > .spf-tabs-menu---item {
         border-left: 1px solid #555;
         border-left-color: #3F2583; }
