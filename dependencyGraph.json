@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1502070410728,
+  "timestamp": 1502090442754,
   "graph": {
     "options": {
       "directed": true,
@@ -8,6 +8,38 @@
       "compound": false
     },
     "nodes": [
+      {
+        "v": "0-overview/overview/00-overview.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "0-overview/overview/01-glossary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "0-overview/overview/02-spf-uikit.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "0-overview/overview/03-how-tos.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "0-overview/overview/11-menu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/0-overview-overview-03-how-tos/0-overview-overview-03-how-tos.html",
+          "lineagePattern": "overview-how-tos"
+        }
+      },
       {
         "v": "00-atoms/accordion/00-accordion-title.mustache",
         "value": {
@@ -963,18 +995,6 @@
         }
       },
       {
-        "v": "06-overview/overview/00-overview.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "06-overview/overview/glossary.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
         "v": "/Users/AliKhM/NetBeansProjects/actgov-patternlab/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
@@ -1001,6 +1021,26 @@
       {
         "v": "01-molecules/pagination/pagination~linkLists.json",
         "w": "01-molecules/link-list/02-link-list-hr.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/overview/00-overview.mustache",
+        "w": "0-overview/overview/11-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/overview/01-glossary.mustache",
+        "w": "0-overview/overview/11-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/overview/02-spf-uikit.mustache",
+        "w": "0-overview/overview/11-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/overview/03-how-tos.mustache",
+        "w": "0-overview/overview/11-menu.mustache",
         "value": {}
       },
       {

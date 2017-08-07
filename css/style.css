@@ -6344,6 +6344,7 @@ i.fa {
     border-top: 1px solid #555;
     border-top-color: #3F2583; }
   .spf-body .spf-side-nav--first > a, .spf-body .spf-side-nav--first .spf-side-nav--second > li > a {
+    position: relative;
     display: block;
     padding: 1.6em;
     border: none;
@@ -6367,14 +6368,23 @@ i.fa {
     overflow: hidden;
     height: auto;
     transition: max-height .3s; }
-    .spf-body .spf-side-nav--first .spf-side-nav--second > li:first-child, .spf-body .spf-side-nav--first .spf-side-nav--second > li .spf-side-nav--second > li:first-child {
+    .spf-body .spf-side-nav--first .spf-side-nav--second > li {
       border: none;
       border-top: 1px solid #555;
       border-color: #3F2583; }
-    .spf-body .spf-side-nav--first .spf-side-nav--second > li a {
-      background-color: #f0f3f5; }
-      .spf-body .spf-side-nav--first .spf-side-nav--second > li a:active, .spf-body .spf-side-nav--first .spf-side-nav--second > li a:focus, .spf-body .spf-side-nav--first .spf-side-nav--second > li a:hover {
+      .spf-body .spf-side-nav--first .spf-side-nav--second > li:first-child, .spf-body .spf-side-nav--first .spf-side-nav--second > li .spf-side-nav--second > li:first-child {
+        border: none;
+        border-top: 1px solid #555;
+        border-color: #3F2583; }
+      .spf-body .spf-side-nav--first .spf-side-nav--second > li a {
         background-color: #f0f3f5; }
+        .spf-body .spf-side-nav--first .spf-side-nav--second > li a:active, .spf-body .spf-side-nav--first .spf-side-nav--second > li a:focus, .spf-body .spf-side-nav--first .spf-side-nav--second > li a:hover {
+          background-color: #f0f3f5; }
+  .spf-body .spf-side-nav--first > a::after, .spf-body .spf-side-nav--first .spf-side-nav--second > li > a::after {
+    display: inline-block;
+    position: absolute;
+    right: 0.32em;
+    top: 40%; }
   .spf-body .spf-side-nav--first.close > a::after, .spf-body .spf-side-nav--first .spf-side-nav--second > li.close > a::after {
     content: '\f054';
     transform: rotate(0deg); }
