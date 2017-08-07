@@ -6383,7 +6383,7 @@ i.fa {
   .spf-body .spf-side-nav--first > a::after, .spf-body .spf-side-nav--first .spf-side-nav--second > li > a::after {
     display: inline-block;
     position: absolute;
-    right: 0.32em;
+    right: 0.64em;
     top: 40%; }
   .spf-body .spf-side-nav--first.close > a::after, .spf-body .spf-side-nav--first .spf-side-nav--second > li.close > a::after {
     content: '\f054';
