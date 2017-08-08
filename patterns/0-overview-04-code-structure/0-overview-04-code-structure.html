@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet" href="../../css/style.css?1502163867864" media="all" />
-  <link rel="stylesheet" href="../../css/pattern-scaffolding.min.css?1502163867864" media="all" />
+  <link rel="stylesheet" href="../../css/style.css?1502165169006" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.min.css?1502165169006" media="all" />
 
   <!--UIKIT test css file-->
   <!-- <link rel="stylesheet" href="../../css/uikit.min.css" media="all" /> -->
@@ -27,8 +27,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1502163867864" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1502163867864" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1502165169006" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1502165169006" media="all" />
 
   <!-- End Pattern Lab -->
 
@@ -123,8 +123,17 @@
                             </ul>
                         </li>
                     </ul>
-
                 </p>
+                <h3>js folder</h3>
+                <p>
+                    All the JS files are located in this folder. There are files that are required for Pattern Lab or build process to work. Important ones are as following:
+                    <ul>
+                        <li><strong>actgov.js:</strong> The JS file reuired for Pattern Lab pages to work. This is not SPF UIKit's js library and are not required in projets that use this UIKit. actgob.js is auto generated from each individual pattern in "_patterns" folder and any change to this will be wiped after each build.</li>
+                        <li><strong>spf.js:</strong> SPF UIKit's js library. This should be imported in projects and required for JS components to work.</li>
+                        <li><strong>uikit.js: </strong>and uikit.min.js are Govau UIKit's js library. Requred for their JS components for work</li>
+                    </ul>
+                </p>
+                <p>SPF and Govau's js libraries work indipendently. It is suggested that both of the files be imported to the projects.</p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -167,10 +176,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1502163867864">
+<script id="pl-js-polyfill-insert-1502165169006">
   (function() {
     if (self != top) {
-      var cb = '1502163867864';
+      var cb = '1502165169006';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -180,10 +189,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1502163867864">
+<script id="pl-js-insert-1502165169006">
   (function() {
     if (self != top) {
-      var cb = '1502163867864';
+      var cb = '1502165169006';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
