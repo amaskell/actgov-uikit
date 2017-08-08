@@ -6384,7 +6384,8 @@ i.fa {
     display: inline-block;
     position: absolute;
     right: 0.64em;
-    top: 40%; }
+    top: 50%;
+    margin-top: -.5em; }
   .spf-body .spf-side-nav--first.close > a::after, .spf-body .spf-side-nav--first .spf-side-nav--second > li.close > a::after {
     content: '\f054';
     transform: rotate(0deg); }
