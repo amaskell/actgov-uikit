@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1502153038396,
+  "timestamp": 1502163053197,
   "graph": {
     "options": {
       "directed": true,
@@ -9,35 +9,41 @@
     },
     "nodes": [
       {
-        "v": "0-overview/overview/00-overview.mustache",
+        "v": "0-overview/00-overview.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "0-overview/overview/01-glossary.mustache",
+        "v": "0-overview/01-glossary.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "0-overview/overview/02-spf-uikit.mustache",
+        "v": "0-overview/02-spf-uikit.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "0-overview/overview/03-how-tos.mustache",
+        "v": "0-overview/03-how-tos.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "0-overview/overview/11-menu.mustache",
+        "v": "0-overview/04-code-structure.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "0-overview/11-menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/0-overview-overview-03-how-tos/0-overview-overview-03-how-tos.html",
-          "lineagePattern": "overview-how-tos"
+          "lineagePath": "../../patterns/0-overview-04-code-structure/0-overview-04-code-structure.html",
+          "lineagePattern": "overview-code-structure"
         }
       },
       {
@@ -1024,23 +1030,28 @@
         "value": {}
       },
       {
-        "v": "0-overview/overview/00-overview.mustache",
-        "w": "0-overview/overview/11-menu.mustache",
+        "v": "0-overview/00-overview.mustache",
+        "w": "0-overview/11-menu.mustache",
         "value": {}
       },
       {
-        "v": "0-overview/overview/01-glossary.mustache",
-        "w": "0-overview/overview/11-menu.mustache",
+        "v": "0-overview/01-glossary.mustache",
+        "w": "0-overview/11-menu.mustache",
         "value": {}
       },
       {
-        "v": "0-overview/overview/02-spf-uikit.mustache",
-        "w": "0-overview/overview/11-menu.mustache",
+        "v": "0-overview/02-spf-uikit.mustache",
+        "w": "0-overview/11-menu.mustache",
         "value": {}
       },
       {
-        "v": "0-overview/overview/03-how-tos.mustache",
-        "w": "0-overview/overview/11-menu.mustache",
+        "v": "0-overview/03-how-tos.mustache",
+        "w": "0-overview/11-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/04-code-structure.mustache",
+        "w": "0-overview/11-menu.mustache",
         "value": {}
       },
       {

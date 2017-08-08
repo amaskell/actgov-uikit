@@ -15,27 +15,7 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="col-lg-2">
-                <div class="spf-side-nav">
-    <ul>
-        <li class="spf-side-nav--first">
-            <a href="&#x2F;patterns&#x2F;0-overview-overview-00-overview&#x2F;0-overview-overview-00-overview.html" title="Overview" class="">Overview</a>
-        </li>
-        <li class="spf-side-nav--first">
-            <a href="&#x2F;patterns&#x2F;0-overview-overview-01-glossary&#x2F;0-overview-overview-01-glossary.html" title="SPF classnames" class="">SPF classnames</a>
-        </li>
-        <li class="spf-side-nav--first close" aria-controls="spf-ui-kit-section">
-            <a href="#" title="SPF UIKit - Technical" class="">SPF UIKit - Technical</a>
-            <ul class="spf-side-nav--second" id="spf-ui-kit-section">
-                <li>
-                    <a href="&#x2F;patterns&#x2F;0-overview-overview-02-spf-uikit&#x2F;0-overview-overview-02-spf-uikit.html" title="SPF UIKit overview">Overview</a>
-                </li>
-                <li>
-                    <a href="&#x2F;patterns&#x2F;0-overview-overview-03-how-tos&#x2F;0-overview-overview-03-how-tos.html" title="How-tos">How-tos</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
+                {{> overview-menu}}
             </div>
             <div class="col-lg-10 spf-page-content spf-page-content--right">
                 <h2>Download code</h2>
@@ -44,11 +24,11 @@
                     <ul>
                         <li>
                             Cloning using GIT: Clone from the
-                            <a href="https:&#x2F;&#x2F;bitbucket.org&#x2F;actgovproject&#x2F;actgovproject.bitbucket.io" title="SPF UIKit repository" rel="external" target="_blank">repository</a>
+                            <a href="{{overview-content.built-version-url}}" title="SPF UIKit repository" rel="external" target="_blank">repository</a>
                         </li>
                         <li>
                             Download zip file repositoty: Clone from the
-                            <a href="https:&#x2F;&#x2F;bitbucket.org&#x2F;actgovproject&#x2F;actgov-patternlab&#x2F;downloads&#x2F;" title="SPF UIKit repository" rel="external" target="_blank">repository downloads</a>
+                            <a href="{{overview-content.repository-downloads}}" title="SPF UIKit repository" rel="external" target="_blank">repository downloads</a>
                         </li>
                     </ul>
                 </p>
@@ -82,7 +62,7 @@
                 </p>
                 <h2>Themes</h2>
                 <p>
-                    In SPF UIKit, multiple themes can be defined and uses. Themes might be different in color schemes, or default padding and
+                    In SPF UIKit, multiple themes can be defined and used. Themes might be different in color schemes, or default padding and
                     margins. This can be done by defining different values for SASS global variables that are uses in SPF
                     UIKit.
                 </p>
