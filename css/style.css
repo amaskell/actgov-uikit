@@ -5534,7 +5534,7 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
         display: table-cell;
         vertical-align: middle;
         font-size: x-large;
-        font-weight: 200; }
+        font-weight: 400; }
   @media (min-width: 992px) {
     .spf-body .uikit-header .header-search-row {
       margin-top: -0.8em; } }
