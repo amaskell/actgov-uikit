@@ -1580,7 +1580,7 @@ SPF global variable
   .uikit-grid .col-lg-offset-12 {
     margin-left: 100%; } }
 
-/*! @gov.au/header v1.1.0 */
+/*! @gov.au/header v1.2.0 */
 /**
  * Basic header block styling.
  */
@@ -1870,7 +1870,7 @@ p + .uikit-display-6 {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-/*! @gov.au/progress-indicator v0.2.0 */
+/*! @gov.au/progress-indicator v0.1.0 */
 @media print {
   .progress-indicator {
     border-top-color: #000 !important; }
@@ -1906,16 +1906,9 @@ p + .uikit-display-6 {
   color: #313131;
   text-decoration: none;
   line-height: 1.45;
-  -webkit-appearance: none;
-  background: transparent;
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  border: none;
   border-bottom: 1px solid #bbbbbb;
   border-left: 3px solid transparent;
-  transition: background-color 0.1s ease-in-out;
-  cursor: pointer; }
+  transition: background-color 0.1s ease-in-out; }
   .uikit-body .progress-indicator__link:hover, .kss-modifier__example .progress-indicator__link:hover, .uikit-body .progress-indicator__link:focus, .kss-modifier__example .progress-indicator__link:focus,
   .progress-indicator__link:hover,
   .progress-indicator__link:focus {
@@ -4829,7 +4822,7 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
   .uikit-grid .col-lg-offset-12 {
     margin-left: 100%; } }
 
-/*! @gov.au/header v1.1.0 */
+/*! @gov.au/header v1.2.0 */
 /**
  * Basic header block styling.
  */
@@ -5119,7 +5112,7 @@ p + .uikit-display-6 {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-/*! @gov.au/progress-indicator v0.2.0 */
+/*! @gov.au/progress-indicator v0.1.0 */
 @media print {
   .progress-indicator {
     border-top-color: #000 !important; }
@@ -5155,16 +5148,9 @@ p + .uikit-display-6 {
   color: #313131;
   text-decoration: none;
   line-height: 1.45;
-  -webkit-appearance: none;
-  background: transparent;
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  border: none;
   border-bottom: 1px solid #bbbbbb;
   border-left: 3px solid transparent;
-  transition: background-color 0.1s ease-in-out;
-  cursor: pointer; }
+  transition: background-color 0.1s ease-in-out; }
   .uikit-body .progress-indicator__link:hover, .kss-modifier__example .progress-indicator__link:hover, .uikit-body .progress-indicator__link:focus, .kss-modifier__example .progress-indicator__link:focus,
   .progress-indicator__link:hover,
   .progress-indicator__link:focus {
@@ -6023,43 +6009,27 @@ i.fa {
   color: #3F2583; }
 
 .spf-download-link .spf-download-link--size::before {
-  content: "[ ";
+  content: "[ \f016";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
   margin-right: 4px; }
 
 .spf-download-link .spf-download-link--size::after {
-  content: " ]";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
+  content: " ]"; }
 
 .spf-download-link.spf-download-link--pdf .spf-download-link--size::before {
-  content: "[ \f1c1 ";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
+  content: "[ \f1c1 "; }
 
 .spf-download-link.spf-download-link--word .spf-download-link--size::before {
-  content: "[ \f1c2 ";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
+  content: "[ \f1c2 "; }
 
 .spf-download-link.spf-download-link--ppt .spf-download-link--size::before {
-  content: "[ \f1c4 ";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
+  content: "[ \f1c4 "; }
 
 .spf-download-link.spf-download-link--txt .spf-download-link--size::before {
-  content: "[ \f0f6 ";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
+  content: "[ \f0f6 "; }
 
 .spf-body .spf-block {
   border: 1px solid #555;
