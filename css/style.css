@@ -6757,6 +6757,11 @@ body {
   .palette__color--link:after {
     content: "Link: #edd7e9"; }
 
+.palette__color--Gradiant {
+  background-color: #A33790; }
+  .palette__color--Gradiant:after {
+    content: "Link: #A33790"; }
+
 .palette__color--error {
   background-color: #ff635c; }
   .palette__color--error:after {
@@ -6798,6 +6803,9 @@ body {
 .contrast-box--link {
   background-color: #edd7e9; }
 
+.contrast-box--gradiant {
+  background-color: #A33790; }
+
 .contrast-white .contrast-box {
   color: #fff; }
 
@@ -6836,6 +6844,9 @@ body {
   background-color: rgba(255, 0, 0, 0.7);
   color: #fff;
   content: "1.4 ✗"; }
+
+.contrast-white .contrast-box--gradiant:after {
+  content: "6 ✔"; }
 
 .contrast-text .contrast-box {
   color: #313131; }
@@ -6881,6 +6892,14 @@ body {
 .contrast-text .contrast-box--link:after {
   content: "9.6 ✔"; }
 
+.contrast-text .contrast-box--gradiant:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "2.2 ✗"; }
+
 .contrast-hero .contrast-box {
   color: #2c1a5c; }
 
@@ -6924,6 +6943,14 @@ body {
 
 .contrast-hero .contrast-box--link:after {
   content: "11 ✔"; }
+
+.contrast-hero .contrast-box--gradiant:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "2.5 ✗"; }
 
 .contrast-primary .contrast-box {
   color: #3F2583; }
@@ -6969,6 +6996,14 @@ body {
 .contrast-primary .contrast-box--link:after {
   content: "8.6 ✔"; }
 
+.contrast-primary .contrast-box--gradiant:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "1.9 ✗"; }
+
 .contrast-secondary .contrast-box {
   color: #313131; }
 
@@ -7012,6 +7047,14 @@ body {
 
 .contrast-secondary .contrast-box--link:after {
   content: "9.6 ✔"; }
+
+.contrast-secondary .contrast-box--gradiant:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "2.2 ✗"; }
 
 .contrast-border .contrast-box {
   color: #555; }
@@ -7095,6 +7138,53 @@ body {
   background-color: rgba(255, 0, 0, 0.7);
   color: #fff;
   content: "1 ✗"; }
+
+.contrast-gradiant .contrast-gradiant {
+  color: #A33790; }
+
+.contrast-gradiant .contrast-box--white:after {
+  content: "6 ✔"; }
+
+.contrast-gradiant .contrast-box--background:after {
+  content: "5.4 ✔"; }
+
+.contrast-gradiant .contrast-box--hero:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "2.5 ✗"; }
+
+.contrast-gradiant .contrast-box--primary:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "1.9 ✗"; }
+
+.contrast-gradiant .contrast-box--secondary:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "2.2 ✗"; }
+
+.contrast-gradiant .contrast-box--border:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  content: "1.2 ✗"; }
+
+.contrast-gradiant .contrast-box--link:after {
+  background-color: rgba(255, 255, 0, 0.7);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 10px);
+  color: #000;
+  content: "4.4 ✗"; }
 
 .contrast-box--error {
   background-color: #ff635c; }

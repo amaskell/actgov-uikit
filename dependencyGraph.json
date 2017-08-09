@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1502243810426,
+  "timestamp": 1502256110629,
   "graph": {
     "options": {
       "directed": true,
@@ -840,6 +840,12 @@
       },
       {
         "v": "04-global/00-brand-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-global/00-colors-test.mustache",
         "value": {
           "compileState": "clean"
         }
