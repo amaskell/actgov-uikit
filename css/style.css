@@ -5483,6 +5483,8 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
   .uikit-text-input + .uikit-text-input__hint {
     margin-top: 0.4em; }
 
+/*------------------------------------*    SPF UIKit components
+\*------------------------------------*/
 .spf-image, .spf-article-image, .spf-feature-article-image, .spf-article-card-image, .spf-banner-image {
   width: 100%;
   object-fit: cover; }
@@ -6371,6 +6373,9 @@ i.fa {
   .spf-body .spf-side-nav--first.open .spf-side-nav--second, .spf-body .spf-side-nav--first .spf-side-nav--second > li.open .spf-side-nav--second {
     max-height: 2000px; }
 
+/*------------------------------------*    Pattern Lab required.
+    Govau UIKit text pages styles.
+\*------------------------------------*/
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif; }
 
@@ -8395,193 +8400,5 @@ body {
   .grids > span {
     display: block;
     background-color: rgba(102, 51, 153, 0.7); }
-
-/*------------------------------------*    $BASE
-\*------------------------------------*/
-/*------------------------------------*    $GOOGLE FONTS
-\*------------------------------------*/
-/*------------------------------------*    $COMPONENTS
-\*------------------------------------*/
-/*------------------------------------*    $LAYOUT
-\*------------------------------------*/
-/*------------------------------------*    #LAYOUT
-\*------------------------------------*/
-/**
- * Layout container
- */
-.l {
-  max-width: 80em;
-  margin: 0 auto;
-  padding: 1rem; }
-
-/*------------------------------------*    #TEMPLATES
-\*------------------------------------*/
-/**
- * 2 column layout
- */
-.l--two-col {
-  display: flex;
-  flex-direction: column;
-  /**
-	 * Sidebar
-	 */ }
-  @media all and (min-width: 50em) {
-    .l--two-col .l-main {
-      width: 70%;
-      padding-right: 1em; } }
-  @media all and (min-width: 39.8em) {
-    .l--two-col .l-sidebar {
-      display: flex; } }
-  @media all and (min-width: 50em) {
-    .l--two-col .l-sidebar {
-      flex-direction: column;
-      width: 30%;
-      padding: 0 0 0 1em; } }
-  @media all and (min-width: 50em) {
-    .l--two-col {
-      flex-direction: row; } }
-
-/*------------------------------------*    #GRIDS
-\*------------------------------------*/
-/**
- * Grid
- */
-.g {
-  overflow: hidden;
-  margin: 0 -0.5em; }
-
-/**
- * Grid item
- */
-.gi {
-  padding: 0.5em; }
-  .gi img {
-    display: block; }
-  @media all and (min-width: 46.8em) {
-    .gi {
-      float: left; } }
-
-/**
- * 2 up grid
- */
-@media all and (min-width: 46.8em) {
-  .g-2up > .gi {
-    float: left;
-    width: 50%; }
-    .g-2up > .gi:nth-of-type(odd) {
-      clear: left; } }
-
-/**
- * Grid side by side
- */
-.g-half > .gi {
-  float: left;
-  width: 50%; }
-  .g-half > .gi:nth-of-type(odd) {
-    clear: left; }
-
-/**
- * 3 up grid
- */
-@media all and (min-width: 46.8em) {
-  .g-3up > .gi {
-    float: left;
-    width: 50%; }
-    .g-3up > .gi:nth-of-type(2n+1) {
-      clear: left; } }
-
-@media all and (min-width: 50em) {
-  .g-3up > .gi {
-    width: 33.3333333%; }
-    .g-3up > .gi:nth-of-type(2n+1) {
-      clear: none; }
-    .g-3up > .gi:nth-of-type(3n+1) {
-      clear: left; } }
-
-/**
- * 4 up grid
- */
-@media all and (min-width: 46.8em) {
-  .g-4up > .gi {
-    float: left;
-    width: 50%; }
-    .g-4up > .gi:nth-of-type(2n+1) {
-      clear: both; } }
-
-@media all and (min-width: 50em) {
-  .g-4up > .gi {
-    width: 25%; }
-    .g-4up > .gi:nth-of-type(2n+1) {
-      clear: none; }
-    .g-4up > .gi:nth-of-type(4n+1) {
-      clear: left; } }
-
-/**
- * Quarter grid always displayed side by side
- */
-.g-quarter > .gi {
-  float: left;
-  width: 24%; }
-  .g-quarter > .gi:nth-of-type(4n+1) {
-    clear: left; }
-
-/**
- * Grid max 4 up
- */
-@media all and (min-width: 29.75em) {
-  .g-max4 > .gi {
-    float: left;
-    width: 50%; }
-    .g-max4 > .gi:nth-of-type(2n+1) {
-      clear: both; } }
-
-@media all and (min-width: 39.8em) {
-  .g-max4 > .gi {
-    width: 33.3333333%; }
-    .g-max4 > .gi:nth-of-type(2n+1) {
-      clear: none; }
-    .g-max4 > .gi:nth-of-type(3n+1) {
-      clear: left; } }
-
-@media all and (min-width: 50em) {
-  .g-max4 > .gi {
-    width: 25%; }
-    .g-max4 > .gi:nth-of-type(3n+1) {
-      clear: none; }
-    .g-max4 > .gi:nth-of-type(4n+1) {
-      clear: left; } }
-
-/**
- * Grid max of 5 up
- */
-.g-max5 > .gi {
-  float: left;
-  width: 50%; }
-  .g-max5 > .gi:nth-of-type(2n+1) {
-    clear: both; }
-
-@media all and (min-width: 39.8em) {
-  .g-max5 > .gi {
-    width: 33.3333333%; }
-    .g-max5 > .gi:nth-of-type(2n+1) {
-      clear: none; }
-    .g-max5 > .gi:nth-of-type(3n+1) {
-      clear: left; } }
-
-@media all and (min-width: 46.8em) {
-  .g-max5 > .gi {
-    width: 25%; }
-    .g-max5 > .gi:nth-of-type(3n+1) {
-      clear: none; }
-    .g-max5 > .gi:nth-of-type(4n+1) {
-      clear: left; } }
-
-@media all and (min-width: 48em) {
-  .g-max5 > .gi {
-    width: 20%; }
-    .g-max5 > .gi:nth-of-type(4n+1) {
-      clear: none; }
-    .g-max5 > .gi:nth-of-type(5n+1) {
-      clear: left; } }
 
 /*# sourceMappingURL=style.css.map */

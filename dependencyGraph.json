@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1502260313774,
+  "timestamp": 1502329870446,
   "graph": {
     "options": {
       "directed": true,
@@ -45,11 +45,17 @@
         }
       },
       {
+        "v": "0-overview/06-resources.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "0-overview/11-menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/0-overview-05-spf-js/0-overview-05-spf-js.html",
-          "lineagePattern": "overview-spf-js"
+          "lineagePath": "../../patterns/0-overview-06-resources/0-overview-06-resources.html",
+          "lineagePattern": "overview-resources"
         }
       },
       {
@@ -1074,6 +1080,11 @@
       },
       {
         "v": "0-overview/05-spf-js.mustache",
+        "w": "0-overview/11-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "0-overview/06-resources.mustache",
         "w": "0-overview/11-menu.mustache",
         "value": {}
       },
