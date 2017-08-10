@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1502342898489,
+  "timestamp": 1502408073021,
   "graph": {
     "options": {
       "directed": true,
@@ -433,9 +433,7 @@
       {
         "v": "00-atoms/text-banner/04-text-banner-gradiant.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-04-temlpate-04/03-templates-04-temlpate-04.html",
-          "lineagePattern": "templates-temlpate-04"
+          "compileState": "clean"
         }
       },
       {
@@ -1621,11 +1619,6 @@
       {
         "v": "03-templates/04-temlpate-04.mustache",
         "w": "02-organisms/article-box/article-card.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-templates/04-temlpate-04.mustache",
-        "w": "00-atoms/text-banner/04-text-banner-gradiant.mustache",
         "value": {}
       },
       {

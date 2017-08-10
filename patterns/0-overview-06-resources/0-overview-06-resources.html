@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet" href="../../css/style.css?1502342897640" media="all" />
-  <link rel="stylesheet" href="../../css/pattern-scaffolding.min.css?1502342897640" media="all" />
+  <link rel="stylesheet" href="../../css/style.css?1502408072127" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.min.css?1502408072127" media="all" />
 
   <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
   <!-- never cache patterns -->
@@ -17,8 +17,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1502342897640" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1502342897640" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1502408072127" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1502408072127" media="all" />
 
   <!-- End Pattern Lab -->
 
@@ -28,8 +28,8 @@
 
   <!-- Start of top button to toggle pattern info  -->
   <div style="text-align: right">
-    <span style="display:inline-block; background: black; color: #ddd; cursor: pointer; padding: 0 5px;" onclick="parent.modalViewer.toggle()">Toggle patterns info</span>
-  </div>
+    <span style="display:inline-block; background: black; color: #ddd; cursor: pointer; padding: 0 5px;" onclick="print()">Print</span>
+      <span style="display:inline-block; background: black; color: #ddd; cursor: pointer; padding: 0 5px;" onclick="parent.modalViewer.toggle()">Toggle patterns info</span></div>
   <!-- End of top button to toggle pattern info  -->
 <main class="uikit-grid">
 
@@ -54,16 +54,21 @@
                 <div class="spf-side-nav">
     <ul>
         <li class="spf-side-nav--first">
-            <a href="&#x2F;patterns&#x2F;0-overview-00-overview&#x2F;0-overview-00-overview.html" title="Overview" class="">Overview</a>
-        </li>
-        <li class="spf-side-nav--first">
-            <a href="&#x2F;patterns&#x2F;0-overview-01-glossary&#x2F;0-overview-01-glossary.html" title="SPF styles" class="">SPF styles</a>
-        </li>
-        <li class="spf-side-nav--first">
-            <a href="&#x2F;patterns&#x2F;0-overview-05-spf-js&#x2F;0-overview-05-spf-js.html" title="SPF JS" class="">SPF JS</a>
+            <a href="&#x2F;patterns&#x2F;0-overview-00-overview&#x2F;0-overview-00-overview.html" title="Overview" class="">Introduction</a>
         </li>
         <li class="spf-side-nav--first close" aria-controls="spf-ui-kit-section">
-            <a href="#" title="SPF UIKit - Technical" class="">SPF UIKit - Technical</a>
+            <a href="#" title="Developing with SPF UI Kit" class="">Developing <br/>with SPF UI Kit</a>
+            <ul class="spf-side-nav--second" id="spf-ui-kit-section">
+            <li class="spf-side-nav--first">
+                <a href="&#x2F;patterns&#x2F;0-overview-01-glossary&#x2F;0-overview-01-glossary.html" title="SPF styles" class="">SPF styles</a>
+            </li>
+            <li class="spf-side-nav--first">
+                <a href="&#x2F;patterns&#x2F;0-overview-05-spf-js&#x2F;0-overview-05-spf-js.html" title="SPF JS" class="">SPF JS</a>
+            </li>   
+            </ul>
+        
+        <li class="spf-side-nav--first close" aria-controls="spf-ui-kit-section">
+            <a href="#" title="Maintaining Pattern Lab" class="">Maintaining Pattern Lab</a>
             <ul class="spf-side-nav--second" id="spf-ui-kit-section">
                 <li>
                     <a href="&#x2F;patterns&#x2F;0-overview-02-spf-uikit&#x2F;0-overview-02-spf-uikit.html" title="SPF UIKit overview">Overview</a>
@@ -83,7 +88,23 @@
 </div>
             </div>
             <div class="col-lg-10 spf-page-content spf-page-content--right">
-                
+                <h2>Atomic deisgn & Pattern Lab</h2>
+                <ul>
+                    <li><a href="http://bradfrost.com/blog/post/atomic-web-design/" rel="external" target="_blank">Atomic design</a></li>
+                    <li><a href="http://patternlab.io/" rel="external" target="_blank">Pattern Lab</a></li>
+                    <li><a href="https://github.com/govau/uikit" rel="external" target="_blank">Gov au UI kit</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=84LZyZsTiaA" rel="external" target="_blank">Brad Frost - talk on atomic design</a></li>
+                    <li><a href="https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/" rel="external" target="_blank">Smashing Magazine - building and maintaining atomic design systems with Pattern Lab</a></li>
+                </ul
+
+                <h2>Development guidance</h2>
+                <ul>
+                    <li><a href="https://www.accessibilityoz.com/2014/02/links-and-accessibility/" rel="external" target="_blank">Accessibility Oz - best practice for accessible links</a></li>
+                    <li><a href="https://developers.google.com/web/fundamentals/native-hardware/click-to-call/" rel="external" target="_blank">Click to call links</a></li>
+                    <li><a href="https://developers.google.com/maps/documentation/urls/guide" rel="external" target="_blank">Map URL links</a></li>
+                    <li><a href="https://css-tricks.com/snippets/html/mailto-links/" rel="external" target="_blank">Mailto links</a></li>    
+                </ul>
+
             </div>
         </div>
         <div class="col-md-1"></div>
@@ -127,10 +148,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1502342897640">
+<script id="pl-js-polyfill-insert-1502408072127">
   (function() {
     if (self != top) {
-      var cb = '1502342897640';
+      var cb = '1502408072127';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -140,10 +161,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1502342897640">
+<script id="pl-js-insert-1502408072127">
   (function() {
     if (self != top) {
-      var cb = '1502342897640';
+      var cb = '1502408072127';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
