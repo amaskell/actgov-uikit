@@ -5628,7 +5628,7 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
   margin: 0 .5em; }
 
 .spf-body i.social-media-icon-sm {
-  font-style: initial; }
+  font-style: normal; }
 
 .spf-body .spf-text-banner {
   padding: 1.6em;
@@ -5717,7 +5717,7 @@ html > body .uikit-select__element, x:-moz-any-link, x:default {
     font-weight: 100; }
 
 i.fa {
-  font-style: initial; }
+  font-style: normal; }
 
 .spf-body .spf-tile {
   border: 1px solid #c5c5c5;
